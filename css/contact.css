@@ -1,0 +1,193 @@
+:root {
+  --main-color: #f7c51e;
+  --pargrah-color: rgb(172, 171, 171);
+  --background-color: #262626;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  overflow-x: hidden !important;
+}
+
+/* start button to top */
+.button {
+  position: fixed;
+  z-index: 5;
+  bottom: 3%;
+  right: 1%;
+  padding: 12px;
+  background-color: #ffc428;
+  border-radius: 3px;
+  display: none;
+  cursor: pointer;
+  z-index: 7;
+  color: white;
+}
+
+.button i {
+  color: white;
+  font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  .button {
+    padding: 9px;
+  }
+}
+
+/* end button to top */
+
+/* start navbar and landging page */
+
+.navbar-about .navbar .navbar-brand {
+  color: black;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.navbar-about .navbar .navbar-brand span {
+  font-size: 40px;
+  background-color: var(--main-color);
+  padding: 4px 8px;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-about .navbar .navbar-brand:hover span {
+  color: white;
+  background-color: black;
+}
+
+.navbar-about .navbar .nav-item {
+  padding: 10px;
+}
+
+.navbar-about .navbar .nav-item .nav-link {
+  color: black;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: normal;
+}
+
+@media (max-width: 991px) {
+  .navbar-about .navbar {
+    background-color: white;
+  }
+}
+
+.navbar-about .navbar .nav-item .nav-link.active {
+  color: var(--main-color);
+  border-bottom: 1px solid var(--main-color);
+}
+
+.navbar-about .navbar .nav-item .nav-link:hover {
+  color: var(--main-color);
+  border-bottom: 1px solid var(--main-color);
+  transition: 0.5s;
+}
+
+.navbar-about .navbar .navbar-toggler {
+  color: black;
+}
+
+.navbar-about .navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-about .navbar .navbar-toggler[aria-expanded="true"] {
+  border-color: var(--main-color);
+}
+
+/* end navbar and landing page */
+
+/* start google map */
+.google-map {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* end google map */
+
+/* start contact-us */
+.contact {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact .left {
+  margin-bottom: 30px;
+}
+
+.contact .left h3 {
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.contact .left p {
+  color: #666666;
+}
+
+.contact .left ul li {
+  color: #f7c51e !important;
+  font-weight: bold;
+}
+.contact .left ul li span {
+  margin-left: 10px;
+}
+
+.contact .left ul li span {
+  color: black;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.contact .left ul li {
+  margin-bottom: 20px;
+}
+
+.contact .left ul li a {
+  text-decoration: none;
+  margin-bottom: 20px;
+  color: #b3b3b3;
+}
+
+.contact .left ul li a:hover {
+  color: #f7c51e;
+}
+
+.contact .right input {
+  margin-bottom: 20px;
+  border: 1px solid #f7c51e;
+  box-shadow: none;
+}
+
+.contact .right textarea {
+  width: 100%;
+  height: 140px;
+  border: 1px solid #f7c51e;
+  margin-bottom: 10px;
+}
+
+.contact .right textarea:focus {
+  border: 1px solid #f7c51e;
+  outline: 0;
+}
+
+.contact .right button {
+  background-color: #f7c51e;
+  border: 1px solid #f7c51e;
+  box-shadow: 0;
+  transition: 0.5s;
+  outline: #f7c51e;
+}
+
+.contact .right button:hover {
+  background-color: white;
+  color: #f7c51e;
+}
+/* end contact-us */

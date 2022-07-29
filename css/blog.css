@@ -1,0 +1,109 @@
+/* start a blog */
+.blog
+{
+margin-top: 50px;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.blog .lasted-news-box {
+    margin-bottom: 30px;
+}
+
+.blog .lasted-news-box .date {
+    border-right: 1px solid rgb(141, 141, 141);
+    text-transform: capitalize;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    line-height: 15px;
+    padding: 15px;
+}
+
+.blog .lasted-news-box .date .one {
+    color: black;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.blog .lasted-news-box .link {
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.blog .lasted-news-box .link .t-link {
+    text-decoration: none;
+    font-size: 27px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .blog .lasted-news-box .link .t-link {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .blog .lasted-news-box .link .t-link {
+        font-size: 24px;
+    }
+}
+
+.blog .lasted-news-box .link .about-eng {
+    text-transform: capitalize;
+}
+
+.blog .lasted-news-box .link .about-eng a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.blog .lasted-news-box .img img {
+    width: 100%;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 15px;
+    transition: .3s linear;
+}
+.blog .lasted-news-box .img img:hover
+{
+    transform: scale(.7);
+}
+
+
+
+
+@media (max-width: 767px) {
+    .blog .lasted-news-box .img img {
+        height: 300px;
+    }
+}
+
+.blog .lasted-news-box .read-more {
+    text-decoration: none;
+    padding: 7px 10px;
+    border: 1px solid var(--main-color);
+    color: white;
+    background-color: var(--main-color);
+    text-transform: capitalize;
+}
+
+.blog .lasted-news-box .read-more:hover {
+    background-color: white;
+    color: var(--main-color);
+}
+.blog .border-bottom{
+    border: 1px solid #cccccc;
+        
+        background-color: #cccccc;
+        margin-bottom: 20px;
+        margin-top: 20px;
+}
+/* end a blog */

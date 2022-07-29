@@ -1,0 +1,114 @@
+.readmore-about
+{
+    margin-top: 50px;
+        margin-top: 50px;
+        
+}
+.readmore-about .lasted-news-box {
+    margin-bottom: 30px;
+}
+
+.readmore-about .lasted-news-box .date {
+    border-right: 1px solid rgb(141, 141, 141);
+    text-transform: capitalize;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    line-height: 15px;
+    padding: 15px;
+}
+
+.readmore-about .lasted-news-box .date .one {
+    color: black;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.readmore-about .lasted-news-box .link {
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.readmore-about .lasted-news-box .link .t-link {
+    text-decoration: none;
+    font-size: 27px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .readmore-about .lasted-news-box .link .t-link {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .readmore-about .lasted-news-box .link .t-link {
+        font-size: 24px;
+    }
+}
+
+.readmore-about.lasted-news-box .link .about-eng {
+    text-transform: capitalize;
+}
+
+.readmore-about .lasted-news-box .link .about-eng a {
+    text-decoration: none;
+    color: black;
+}
+
+.readmore-about .col-md-6 .img {
+    position: relative;
+}
+
+.readmore-about .col-md-6 .img img {
+    width: 100%;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 15px;
+}
+
+.readmore-about .col-md-6 .img .overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    width: 100%;
+    height: 96%;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.readmore-about .col-md-6 .img:hover .overlay {
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .readmore-about .col-md-6 .img img {
+        height: 300px;
+    }
+}
+
+/* start readmore paragrah */
+
+.readmore-p
+{
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.readmore-p .col-md-6 img
+{
+    width: 100%;
+    background-size: cover;
+}
+
+/* end readmore paragrah */
+
+
+.more .col-md-12 img{
+width: 100%;
+height: 600px;
+background-size: cover;
+}
